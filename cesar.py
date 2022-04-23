@@ -42,10 +42,9 @@ def decrypt(text: str, shift: int) -> str:
     return result
 
 
-if __name__ == "__main__":
-    assert encrypt("CEASER CIPHER DEMO", 4) == "GIEWIVrGMTLIVrHIQS"
-    assert encrypt("A", 1) == "B"
-    assert decrypt("GIEWIVrGMTLIVrHIQS", 4) == "CEASER CIPHER DEMO"
-    assert decrypt("B", 1) == "A"
+#if __name__ == "__main__":
+#    assert encrypt("CEASER CIPHER DEMO", 4) == "GIEWIVrGMTLIVrHIQS"
+#    assert encrypt("A", 1) == "B"
+#    assert decrypt("GIEWIVrGMTLIVrHIQS", 4) == "CEASER CIPHER DEMO"
+#    assert decrypt("B", 1) == "A"
 
-print(decrypt("GIEWIVrGMTLIVrHIQS", 4))

@@ -1,5 +1,5 @@
 import unittest
-from cesar import encrypt, decrypt
+from cesar import encrypt, c
 
 
 class TestEncryptFunction(unittest.TestCase):
@@ -32,4 +32,4 @@ class TestDecryptFunction(unittest.TestCase):
         self.assertEqual(decrypt("giewivrgmtlivrhiqs", 4), "ceaser cipher demo")
 
     def test_space(self):
-        self.assertEqual(decrypt("r", 4), " ")
+        self.assertEqual(decrypt("r", 4), "")
